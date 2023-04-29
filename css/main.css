@@ -8,11 +8,17 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: 'TWCen-Bold', 'Segoe UI';
-  background-color: #f5f5f5;
+  color: white;
+  background-color: black;
 }
-h1{
+.heading{
   text-align: center;
   font-family: 'TWCen-Bold', 'Segoe UI';
+  color: whitesmoke;
+}
+
+h2{
+  color: white;
 }
 main {
   display: flex;
@@ -25,7 +31,7 @@ main {
   margin-top: 80px;
   font-weight: bold;
   font-size: 20px;
-  color: #aaa;
+  color: white;
   font-family: 'TWCen-Bold', 'Segoe UI';
 }
 
@@ -43,6 +49,7 @@ iframe {
   flex-direction: column;
   flex-grow: 1;
   border: none;
+  color: white;
 }
 
 .editor-container {
@@ -60,7 +67,7 @@ iframe {
 .editor-header {
   padding: 10px;
   background-color: #333;
-  color: #fff;
+  color: white;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
@@ -75,18 +82,19 @@ iframe {
 
 
 .button-container>button:hover {
-  background-color: #555;
+  background-color: white;
 }
 
 .console-container {
   padding: 10px;
-  background-color: #fff;
-  color: #333;
+  background-color: black;
+  color: white;
   font-size: 16px;
   line-height: 1.5;
   height: 200px;
   overflow: auto;
 }
+
 
 @media screen and (max-width: 900px) {
   .boxes {

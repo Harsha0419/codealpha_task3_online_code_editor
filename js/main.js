@@ -50,10 +50,11 @@ runButtonEl.addEventListener("click", () => {
 
   codeEl.open();
   codeEl.write(`<style>${cssCode}</style>`);
-  codeEl.write(htmlCode);
+  codeEl.write(`<div style="color: white">${htmlCode}</div>`);
   codeEl.write(`<script>${jsCode}</script>`);
   codeEl.close();
 });
+
 
 clearButtonEl.addEventListener("click", () => {
   htmlEditor.setValue("");
